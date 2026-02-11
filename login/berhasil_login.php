@@ -3,7 +3,7 @@ session_start();
 
 if (!sset($_SESSION['username'])){
     header("Location: index.php");
-    exit()_; // Terminate scrit execution after the redirect
+    exit(); // Terminate scrit execution after the redirect
 }
 ?>
 
