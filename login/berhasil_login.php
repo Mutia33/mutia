@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (!sset($_SESSION['username'])){
+if (!isset($_SESSION['username'])){
     header("Location: index.php");
     exit(); // Terminate scrit execution after the redirect
 }
